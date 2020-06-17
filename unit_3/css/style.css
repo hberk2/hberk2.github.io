@@ -1,8 +1,54 @@
-body {
+#logo_image img{
+	width: 150px;
+}
+
+header img {
+	max-width: 100%;
+}
+
+#about img{
+	width: 300px;
+}
+
+.section_image img{
+	width: 150px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#about {
+	background-color: pink;
+}
+
+#testimonials {
+	background-color: rgba(30,10,100,.4);
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+/*body {
   text-align: center;
   background-size: cover;
   /*color: #fff;*/
-  font-family: europa, sans-serif;
+ /* font-family: europa, sans-serif;
   font-weight: 300;
 
 }
@@ -34,4 +80,4 @@ h1{
 	font-weight: 300;
 	font-size:17px;
 
-}
+}*/*/
