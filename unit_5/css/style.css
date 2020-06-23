@@ -1,3 +1,5 @@
+* { margin:0; padding:0; box-sizing:border-box; } 
+
 #logo_image img{
 	width: 150px;
 }
@@ -10,9 +12,6 @@ header img {
 	width: 300px;
 }
 
-.section_image img{
-	width: 150px;
-}
 
 header {
 	background-color: #FFED74;
@@ -24,6 +23,7 @@ nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
+	display: block;
 }
 
 #about {
@@ -32,6 +32,65 @@ nav {
 
 #testimonials {
 	background-color: rgba(30,10,100,.4);
+}
+
+.section_nav {
+	width: 100%;
+	background-color: #CCCC;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.section_nav img {
+	width: 100%;
+}
+
+.section_nav_ind {
+	background-color: violet;
+	border: 1px black solid;
+	display: block;
+	margin: 0 auto;
+	float: left;
+	width:46%;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content:" ";
+	clear:both;
+	height:0;
+}
+
+/*#digital {
+	background-color: violet;
+	border: 1px black solid;
+	padding:20px;
+	float: left;
+	width: 30%;
+}
+
+#print {
+	background-color: pink;
+	border: 1px black solid;
+	padding:20px;
+	float: right;
+	width: 62%;
+}*/
+
+/*#branding {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding:20px;
+}
+#art {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding:20px;
+}*/
+
 }
 section {
 	background-color: #FFE2B8;
@@ -43,6 +102,7 @@ footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
+
 }
 /*body {
   text-align: center;

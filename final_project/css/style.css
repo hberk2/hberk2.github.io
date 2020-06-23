@@ -1,0 +1,196 @@
+* { margin:0; padding:0; box-sizing:border-box; bottom-border:none;} 
+
+
+header img {
+	max-width: 15%;
+		width: 20%;
+	display: block;
+	margin: 0 auto;
+}
+
+body img {
+	width:10%;
+}
+
+h1{
+	text-transform: uppercase;
+	font-family: europa, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size:2.5em;
+	letter-spacing: 15px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align:center;
+
+}
+
+h2{
+	font-family: europa, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size:1em;
+	letter-spacing: 3px;
+	padding-top: 50px;
+	text-align:center;
+
+}
+
+h3 {
+	text-transform: uppercase;
+	font-family: europa, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:1em;
+	letter-spacing: 2px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.nav_bar {
+	background-color:#f9c432;
+}
+
+nav {
+	list-style: none;
+	text-align: center;
+	float: right;
+	padding:2%;
+}
+
+nav a:link{
+	text-decoration: none;
+	font-family: europa, sans-serif;
+	color: black;
+	margin:0 32px;
+	font-size:.9em;
+	text-align:center;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+nav a:visited{
+	text-decoration: none;
+	color:black;
+}
+
+nav a:hover{
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+
+header {
+	padding: 150px 50px 200px 50px;
+	background-color:#f9c432;
+	color:white;
+	text-align: center;
+}
+#about img{
+	width: 300px;
+}
+
+
+#about {
+	background-color: pink;
+}
+
+#testimonials {
+	background-color: rgba(30,10,100,.4);
+}
+
+.section_nav {
+	width: 100%;
+}
+
+.section_nav img {
+	width: 100%;
+}
+
+.section_nav_ind {
+	display: block;
+	padding:13%;
+	float: left;
+  	width: 50%;
+  	border:1px solid black;
+
+
+}
+
+
+.clearfix:after{
+	visibility: hidden;
+	height:0;
+	font-size: 20px;
+	content:"hello";
+	clear:both;
+	display: block;
+}
+
+/*#digital {
+	background-color: violet;
+	border: 1px black solid;
+	padding:20px;
+	float: left;
+	width: 30%;
+}
+
+#print {
+	background-color: pink;
+	border: 1px black solid;
+	padding:20px;
+	float: right;
+	width: 62%;
+}*/
+
+/*#branding {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding:20px;
+}
+#art {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding:20px;
+}*/
+
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+/*body {
+  text-align: center;
+  background-size: cover;
+  /*color: #fff;*/
+ /* font-family: europa, sans-serif;
+  font-weight: 300;
+
+}
+
+
+#welcome {
+	text-transform: lowercase;
+	font-style: normal;
+	font-weight: 300;
+	font-size:20px;
+	letter-spacing: 3px;
+	padding-bottom: 20px
+
+}
+
+#about {
+	font-style: normal;
+	font-weight: 300;
+	font-size:17px;
+
+}*/*/
