@@ -62,23 +62,24 @@ nav {
 nav a:link{
 	text-decoration: none;
 	font-family: europa, sans-serif;
-	color: black;
+	color: white;
 	margin:0 32px;
 	font-size:.9em;
 	text-align:center;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 3px;
 }
 
 nav a:visited{
 	text-decoration: none;
-	color:black;
+	color:white;
 }
 
 nav a:hover{
+	color:#f7dfa4;
 	padding-bottom: 5px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #f7dfa4;
 }
 
 header {
