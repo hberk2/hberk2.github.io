@@ -3,20 +3,29 @@
 <head>
 	<title>Hannah Berk</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="clearfix nav_bar">
+	<header class="clearfix">
 		<nav>
+			<a href="index.html"><img src="images/newlogo.png" alt="logo image"></a>
+			<a href="index.html">Hannah Berk</a>
 			<a href="#">About Me</a>
-			<a href="#">Selected Work</a>
 		</nav>
-	</div>
-	<header>
-		<h1>Hannah Berk</h1>
-<!-- 		<img src="images/logoWork.png" alt="logo image"> -->
-		<h2>I'm a graphic designer based in NYC. Now I need a good, slick sentance to add here.</h2>
-		<h2>Send me an email:<a href="mailto: hannahberk22@gmail.com">hannahberk22@gmail.com</a></h2>
 	</header>
+	<section class="intro">
+		<h1>I'm a graphic designer—</h1>
+		<ul>
+			<li>I’m <span>solution-oriented</span> with a sharp attention to detail.</li>
+			<li>I thrive in <span>fast-paced environments</span> and I deliver under pressure.</li>
+			<li>I believe the best results come from <span>collaboration</span>, but I’m willing to hunker down independently if it means getting the job done.</li>
+		</ul>
+		<h2>  I’m excited by <span>growth</span> and <span>new opportunities,</span> so reach out, but first <span>click through my work below!</span></h2>
+<!-- 		<h2>Send me an email:<a href="mailto: hannahberk22@gmail.com">hannahberk22@gmail.com</a></h2> -->
+	</section>
 <!-- 	<img src="images/logoWork.png" alt="animation"> -->
 <!-- 	<section id="about">
 		<h2>Hannah Berk</h2>
@@ -37,12 +46,12 @@
 		<blockquote>
 			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 			<cite>Cicero</cite>
-		</blockquote -->>
-<!-- 	</section>
--->	<div class="section_nav clearfix">
+		</blockquote>
+	</section>  -->
+	<div class="section_nav clearfix">
 		<section id="perryellis" class="section_nav_ind">
 			<h3>Perry ELlis</h3>
-			<img src="images/perry_ellis.jpg" alt="click for Perry Ellis">
+			<img src="images/PE banner3_2 ratio.jpg" alt="click for Perry Ellis">
 		</section>
 		<section id="perryellisamerica" class="section_nav_ind">
 			<h3>Perry Ellis America</h3>
@@ -59,21 +68,18 @@
 	</div>
 	<footer>
 		<div class="contact_form">
-			<p>Contact me:</p>
+			<p id="getintouch">Get in touch</p>
 			<form action="action_page.php">		
-			  	<label for="first_name">First name:</label><br>
-			 	<input type="text" id="first_name" placeholder="Enter it here"><br>
+			  <!-- 	<label for="first_name">First name:</label><br> -->
+			 	<input type="text" placeholder="Full Name"><br>
 
-			 	<label for="last_name">Last name:</label><br>
-			 	<input type="text" id="last_name" placeholder="Enter it here"><br>
+			 <!-- 	<label for="email">Email:</label><br> -->
+			 	<input type="text" placeholder="Email"><br>
 
-			 	<label for="email">Email:</label><br>
-			 	<input type="text" id="email" placeholder="Enter your email here"><br>
+			<!--   	<label for="message">Message:</label><br> -->
+			 	<textarea type="text" placeholder="Message"></textarea><br>
 
-			  	<label for="message">Message:</label><br>
-			 	<input type="text" id="message" placeholder="Why would you like to contact me?" style="height:200px, width:500px"><br>
-
-			 	<input type="submit" value="submit">
+			 	<button>submit</button>
 			</form>
 		</div>
 		<p>Want to really get to know me? Follow me:</p>
