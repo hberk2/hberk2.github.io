@@ -49,9 +49,11 @@ h3 {
 	text-transform: uppercase;
 	font-family: europa, sans-serif;
 	font-style: normal;
-	font-weight: 400;
-	font-size:1em;
+	font-weight: 600;
+	font-size: 1.5em;
 	letter-spacing: .1em;
+	background: white;
+	padding: 1em;
 /*	text-align: left;*/
 }
 
@@ -59,12 +61,10 @@ header {
 	padding: 5% 10% 0 10%;
 }
 
-nav a:first-child img {
-	float: left;
-	width: 20%;
+header img {
+	position: relative;
+	width:25%;
 }
-
-
 
 /*	text-decoration: none;
 	font-family: europa, sans-serif;
@@ -76,21 +76,24 @@ nav a:first-child img {
 	letter-spacing: .2em;*/
 
 
-nav a:not(:first-child){
+nav a{
+	position: relative;
+	top: 100px;
 	float:right;
 	text-decoration: none;
 	font-family: europa, sans-serif;
 	color: black;
-	margin:7% 1em;
-	font-size:1.2em;
+/*	margin:7% 1em;*/
+/*	margin-top: 10%;
+*/	font-size:1.2em;
 	text-align:center;
 	font-style: normal;
 	font-weight: 500;
 	letter-spacing: .15em;
-	padding:1.5%;
+	padding:1em;
 }
 
-nav a:nth-child(3):hover{
+nav a:nth-child(1):hover{
 	box-shadow: 5px -5px 0px rgba(249,196,50,1);
 	outline: .1em solid;
 
@@ -107,6 +110,10 @@ nav a:nth-child(2):hover{
 /*	padding:2% 10%;*/
 /*	background: #f9c432;
 	box-shadow: 5px 5px 3px rgba(0,0,0,.3);*/
+}
+
+.intro video {
+	width: 80%;
 }
 
 .intro ul {
@@ -178,24 +185,33 @@ nav a:nth-child(2):hover{
 
 
 .section_nav_ind {
+	position: relative;
 	display: block;
 	margin: 5%;
 	float: left;
   	width: 40%;
 }
 
-
 .section_nav_ind h3{
-	position:absolute; /*on top of image*/
-	opacity: 0;
-	/*HELP CENTERING*/
+	position: relative;
+	display: inline-block;
+	left:50%;
+	top:190px;
+	transform: translateY(50%);
+	transform: translateX(-50%);
 }
 
-.section_nav_ind:hover > h3{
+/*#perryellis:hover {
+	opacity: 1;
+}*/
+/*.section_nav_ind:hover > h3{
 	opacity: 1;
 
-}
+}*/
 
+#art video{
+	width:100%;
+}
 #perryellis img:hover{
 	outline: 2px solid black;
 	box-shadow: 10px 10px 0px rgba(249,196,50,1);
@@ -267,7 +283,7 @@ footer img {
 }*/
 
 .contact_form{
-	width:30%;
+	max-width:400px;
 	margin:10% auto;
 	background-color: #f9c432;
 	padding: 5em;
@@ -304,7 +320,7 @@ input,textarea {
 	text-align:left;
 	margin-bottom: 5%;
 /*	border: 1px solid rgba(0,0,0,.8);*/
-	min-width: 250px;
+	max-width: 250px;
 	padding-left: .8em;
 	outline: none; /*when clicked*/
 	box-shadow: 3px 3px 1px rgba(0,0,0,.5);
